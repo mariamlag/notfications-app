@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.container{
+    border-radius: 8px;
+    padding-top: 2.4rem;
+    width: 37.5rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34.3rem;
+    margin-bottom: 1.8rem;
+}
+.notification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem; 
+}
+.point{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: #F65552;
+    position: absolute;
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C202B;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A327B;
+    width: 3.2rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
+
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.mark{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #5E6778;
+    cursor: pointer;
+}
+.mark:hover{
+    color: #0A327B;
+}
+
+.same{
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    width: 34.3rem;
+    background: #FFFFFF;
+    height: 8.9rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 1.6rem 2.7rem 1.6rem 1.6rem;
+}
+.mark-div, .angela-div, .jacob-div{
+    background: #F7FAFD;
+}
+
+.background{
+    background: #FFFFFF;
+}
+
+.avatar{
+    width: 3.9rem;
+    height: 3.9rem;
+    margin-right: 1.3rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.full-txt{
+    font-size: 14px;
+    line-height: 18px;
+    color: #5E6778;
+}
+
+.name{
+    color: #1C202B;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    font-weight: 800;
+}
+.name:hover{
+    color: #0A327B;
+}
+.chess-club{
+    color: #0A327B;
+    margin-left: 0.4rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+.strong{
+    color: #5E6778;
+    margin-left: 0.4rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.strong:hover{
+    color: #0A327B;
+}
+.time{
+    margin-top: 0.3rem;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    color: #939CAD;
+}
+
+.rizky-div{
+    height: 21rem;
+}
+
+.comment{
+    margin-top: 1rem;
+    width: 26.3rem;
+    height: 12.2rem;
+    padding: 1.6rem;
+    background: #FFFFFF;
+    border: 1px solid #DDE7EE;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;  
+    color: #5E6778;
+    cursor: pointer;
+}
+.comment:hover{
+    background: #E5EFFA;
+}
+.img-chess{
+    width: 3.9rem;
+    height: 3.9rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px){
+
+    
+    .container{
+        padding-top: 3.3rem;
+        width: 73rem;
+        margin-top: 6.3rem;
+        border-radius: 8px;
+    }
+    .header{
+        width: 67rem;
+        margin-bottom: 3.1rem;
+    }
+    .notification{
+        gap: 1.1rem; 
+    }
+    h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .same{
+        width: 67rem;
+        height: 8rem;
+        margin-top: 0.8rem;
+        padding: 1.8rem 4rem 1.8rem 2rem;
+    }
+    .avatar{
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.9rem;
+    }
+    .full-txt, .time, .comment, .mark{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+ 
+    .time{
+        margin-top: 0.4rem;
+     
+    }
+    
+    .rizky-div{
+        height: 19.2rem;
+    }
+    
+   
+    .comment{
+        width: 56.6rem;
+        height: 9.7rem;
+        padding: 1.7rem 2rem;
+    
+    }
+    .img-chess{
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-left: 16rem;
+    }
+    
+    
+}
