@@ -8,9 +8,11 @@ let count = parseInt(sum.textContent);
 mark.addEventListener("click", () => {
         for (let i = 0; i < collection.length; i++) {
             collection[i].style.backgroundColor = "white";
-            sum.textContent = "0";
             points[i].style.display = "none";
+            count = 0;
+            sum.textContent = count.toString();
         }
+
 });
 //all element which is new notification make read, when I click some notification this background and red point remove 
 for(let i = 0; same.length; i++){  
@@ -19,5 +21,10 @@ for(let i = 0; same.length; i++){
         points[i].style.display = "none";
         count--;
         sum.textContent = count.toString();
-    });
+   
+        if(count < 0){
+            count = 0;
+        }
+        sum.textContent = count.toString();
+});
 };
